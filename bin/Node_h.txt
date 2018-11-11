@@ -1,0 +1,18 @@
+#pragma once
+#include <iostream>
+using namespace std;
+
+class Node {
+private:
+	int data;
+	Node *right;
+	Node *left;
+public:
+	Node(int data);
+	int getData();
+	Node* getLeft();
+	Node* getRight();
+	void setLeft(Node *left);
+	void setRight(Node *right);
+	void setData(int data);
+};

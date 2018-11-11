@@ -1,0 +1,21 @@
+#pragma once
+#include "Node.h"
+#include <iostream>
+using namespace std;
+
+class BST {
+private:
+	Node *root;
+public:
+	BST();
+	//void add(int data);
+	//void creation2();
+	void print(Node * root, int level);
+	void print_layers();
+	bool find(Node *root, int element);
+	bool find_element(int element);
+	Node* insert(Node *&root, int data);
+	void creation();
+	/*Node *delete_(Node *root, int element);
+	void Delete(int element);*/
+};

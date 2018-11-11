@@ -1,0 +1,17 @@
+#include "stdafx.h"
+#include "Node.h"
+#include "BST.h"
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	BST root;
+	//root.creation2();
+	root.creation();
+	//root.Delete(8);
+	root.print_layers();
+	cout << endl << endl << root.find_element(4) << endl;
+	system("pause");
+    return 0;
+}
