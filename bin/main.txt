@@ -12,6 +12,5 @@ int main()
 	//root.Delete(8);
 	root.print_layers();
 	cout << endl << endl << root.find_element(4) << endl;
-	system("pause");
     return 0;
 }
